@@ -13,9 +13,6 @@
 
 > Price fluctuation in 2016 is very stable and regular throughout yearly, monthly and weekly. No unexpected or irregular spikes are observed. This trend is well correlated to the availability.  The weekend and holiday　season are high and others are not. It seems to me that Seattle is a destination of tour or resort. 
 
-![daily_ave](/Users/wythe/Desktop/airbnb/daily_ave.png)
-
-
 
 > Trend of price fluctuation from 2005 to 2015 are different from the above. For the earlier part of the period of 2005 to 2015, price fluctuations are very large and look irregular. When this trend is compared to the trend of increase in numbers of hosts, it looks that with the numbers of hosts being increased, the fluctuation of them is getting milder. In 2016, not only the fluctuation of the price is stable but also it looks to move regularly and expectedly as mentioned earlier. A hypothesis comes up in my mind that the rapid growth of Airbnb share house business in Seattle has now reached the saturation stage with the market  supply-demand has been well balanced.
 
