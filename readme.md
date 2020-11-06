@@ -1,25 +1,43 @@
-# Seattle Airbnb Open Data
+# Write a Data Science blog post
+Udacity Data Scientist Nanodegree Project.
 
+## Table of Contents
+1. Installation
+2. Project Motivation
+3. File Description
+4. Results
+5. Licensing, Authors, and Acknowledgements
 
-## Datasets
+## Installation
+This code runs with Python version 3.* and requires some libraries, to install theses libraries you will need to execute:
 
-> Data from [Seattle Airbnb Open Data](https://www.kaggle.com/airbnb/seattle/data)
-> - data exploreed. 
+`pip install -r requirements.txt`
+
+You will need to download data from [Seattle Airbnb Open Data](https://www.kaggle.com/airbnb/seattle/data)
+
 > - calender.csv : 1393570 rows/4 columns Year 2016 daily daily price data 
 > - listings.csv : 3891 rows/91 columns from year 2009 to 2015 various data such as price, rating, review, accomodation, propeerty etc.
 > - reviews. csv : 84891 rows/6 colums from Year 2009 to 2015 reviewers cooments
 
-## Summary of Findings
+## Project Motivation
 
-> - Price fluctuation in 2016 is very stable and regular yearly, monthly and weekly. No unexpected or irregular spikes are observed. This trend is reasonably correlated to the availability. The prices of the weekend and holiday season are high and others are not.
+Airbnb, a home sharing business model that is new and has rapidly been growing in the US and all over the world. However they are not so popular in Japan where I live. This may be due to communication capability and their shy character. Therefore, it is my interest to understand how it has been growing in the world, what is current status and are there any issues etc.
 
-> - Trend of price fluctuation from 2005 to 2015 are different from the above. For the earlier part of the period of 2005 to 2015, price fluctuations are very large and look irregular. When this trend is compared to the trend of increase in numbers of hosts, it looks that with the numbers of hosts being increased, the fluctuation of them is getting milder. 
+1. What are the trends of the growth of business development and situation ?
+2. What is the value of a guest ?
+3. what is the trend of the price ?
+4. Why are they not popular in Japan ?
 
-> - Those hosts categorized as 'super host’ got higher ratings and more reviews and non super hosts with less ratings also got more reviews.
+## File Description
+- **airbnb_seattle.jpynb**:Notebook containing the data analysis
+- **AllTogether.py**:function applied in airbnb_seattle.jpynb
+- **calendar.csv**
+- **listings.csv**
+- **reviews.csv**
 
-> - Linear Regression analysis find out what features are impacts on ratings. As a result, higher weights impacts on rating are types of property, Boat, Couch, Tent are top 3 and then followed by communication and cleanliness review score.
+## Results
+The main findings of the code can be found at the post avilable [here](https://gitpress.io/u/1402/Seattle%20Airbnb).
 
+## Licensing, Authors, Acknowledgements
 
-## References
-
-Functions(AllTogether.py) referred from Udacity Data Scientist Nanodegree Course 
+Must give credit to Airbnb for the data. You can find the Licensing for the data and other descriptive information [here](http://insideairbnb.com/get-the-data.html).
